@@ -44,7 +44,7 @@ public class HomeActivity extends AppCompatActivity implements BottomNavigationV
                 fragment = new HomeFragment();
                 break;
             case R.id.menu_localizado:
-                Toast.makeText(HomeActivity.this, "Codigo de localizado", Toast.LENGTH_SHORT).show();
+                Toast.makeText(HomeActivity.this, "Codigo de Rutas", Toast.LENGTH_SHORT).show();
                 fragment = new RutasFragment();
                 break;
             case R.id.menu_my_perfil:
